@@ -2,23 +2,23 @@
 
 This project is a simple Flutter application that allows users to search for an address or retrieve their current location. This app consists of two screens:
 
-## Screens:
+## Screens
 
 1. **Search Screen:**
-    - The search screen allows users to input an address and fetch autocomplete suggestions based on their input. The autocomplete suggestions are provided by the Google Geocoder or Places API.
-    - It also includes a feature for retrieving the user's current location.
-    - After selecting an address from the suggestions or clicking the "Current Location" button, users are directed to the second screen which displays the details of the selected address.
+   - The search screen allows users to input an address and fetch autocomplete suggestions based on their input. The autocomplete suggestions are provided by the Google Geocoder or Places API.
+   - It also includes a feature for retrieving the user's current location.
+   - After selecting an address from the suggestions or clicking the "Current Location" button, users are directed to the second screen which displays the details of the selected address.
 
 2. **Details Screen:**
-    - The details screen displays the selected address details with each address component shown in its corresponding text field.
-    - This screen also includes a Google map displaying the selected location.
-    - The map updates in real time if any address component is changed in the text fields.
+   - The details screen displays the selected address details with each address component shown in its corresponding text field.
+   - This screen also includes a Google map displaying the selected location.
+   - The map updates in real time if any address component is changed in the text fields.
 
-## Getting Started:
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites:
+### Prerequisites
 
 What things you need to install the software:
 
@@ -26,7 +26,7 @@ What things you need to install the software:
 - Android Studio, VS Code or any IDE with Flutter SDK support.
 - An Android or iOS device for testing.
 
-### Installation:
+### Installation
 
 1. Clone the repo
     ```sh
@@ -34,27 +34,31 @@ What things you need to install the software:
     ```
 2. Navigate to the project directory
     ```sh
-    cd PROJECT_DIRECTORY
+    cd YourRepoName
     ```
 3. Get Flutter packages
     ```sh
     flutter pub get
     ```
-4. Run the app
+4. Provide your Google Maps API Key in the `AppDelegate.swift` file for iOS and in the `AndroidManifest.xml` for Android.
+
+5. Run the app with the provided Google Maps API Key.
     ```sh
-    flutter run
+    flutter run --dart-define=GOOGLE_MAPS_API_KEY=YourApiKeyHere
     ```
 
-## Built With:
+> Note: Replace 'YourApiKeyHere' with your actual Google Maps API Key
+
+## Built With
 
 - [Flutter](https://flutter.dev/)
 - [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
 - [Google Geocoder API](https://developers.google.com/maps/documentation/geocoding/start)
 
-## Author:
+## Author
 
 [Your Name](https://github.com/AlexFox63)
 
-## Acknowledgments:
+## Acknowledgments
 
 - Thanks to Google for providing their APIs for address search and geocoding.

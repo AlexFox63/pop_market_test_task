@@ -7,7 +7,7 @@ import '../models/remote/predictions_response.dart';
 
 part 'api_service.g.dart';
 
-const String apiKey = 'AIzaSyAY_0_HLEixyxX9BBqOTZYmXVEJ3wROO_U';
+const String apiKey = String.fromEnvironment('GOOGLE_MAPS_API_KEY');
 
 @RestApi()
 abstract class AppApiService {

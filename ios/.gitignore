@@ -10,6 +10,7 @@
 **/DerivedData/
 Icon?
 **/Pods/
+**/secrets.plist
 /Podfile.lock
 **/.symlinks/
 profile
