@@ -30,7 +30,7 @@ What things you need to install the software:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/AlexFox63/pop_test_task.git
+    git clone https://github.com/AlexFox63/pop_market_test_task.git
     ```
 2. Navigate to the project directory
     ```sh
