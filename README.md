@@ -1,16 +1,60 @@
-# pop_test_task
+# Flutter Home Assessment
 
-A new Flutter project.
+This project is a simple Flutter application that allows users to search for an address or retrieve their current location. This app consists of two screens:
 
-## Getting Started
+## Screens:
 
-This project is a starting point for a Flutter application.
+1. **Search Screen:**
+    - The search screen allows users to input an address and fetch autocomplete suggestions based on their input. The autocomplete suggestions are provided by the Google Geocoder or Places API.
+    - It also includes a feature for retrieving the user's current location.
+    - After selecting an address from the suggestions or clicking the "Current Location" button, users are directed to the second screen which displays the details of the selected address.
 
-A few resources to get you started if this is your first Flutter project:
+2. **Details Screen:**
+    - The details screen displays the selected address details with each address component shown in its corresponding text field.
+    - This screen also includes a Google map displaying the selected location.
+    - The map updates in real time if any address component is changed in the text fields.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Getting Started:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites:
+
+What things you need to install the software:
+
+- Flutter SDK
+- Android Studio, VS Code or any IDE with Flutter SDK support.
+- An Android or iOS device for testing.
+
+### Installation:
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/AlexFox63/pop_test_task.git
+    ```
+2. Navigate to the project directory
+    ```sh
+    cd PROJECT_DIRECTORY
+    ```
+3. Get Flutter packages
+    ```sh
+    flutter pub get
+    ```
+4. Run the app
+    ```sh
+    flutter run
+    ```
+
+## Built With:
+
+- [Flutter](https://flutter.dev/)
+- [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
+- [Google Geocoder API](https://developers.google.com/maps/documentation/geocoding/start)
+
+## Author:
+
+[Your Name](https://github.com/AlexFox63)
+
+## Acknowledgments:
+
+- Thanks to Google for providing their APIs for address search and geocoding.
