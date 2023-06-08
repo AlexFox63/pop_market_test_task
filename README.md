@@ -34,7 +34,7 @@ What things you need to install the software:
     ```
 2. Navigate to the project directory
     ```sh
-    cd YourRepoName
+    cd pop_market_test_task
     ```
 3. Get Flutter packages
     ```sh
